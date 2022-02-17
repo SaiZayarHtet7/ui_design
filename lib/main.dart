@@ -109,7 +109,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "405 Havelock Road, Sigapore 169633",
+                              "405 Havelock Road,\n Sigapore 169633",
                               style: Constants.subTitle,
                             ),
                             Container(
@@ -382,6 +382,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                                         onPressed: () {},
                                         child: Text(
                                           "View Rates",
+                                          textAlign: TextAlign.center,
                                           style: Constants.normalStyle.merge(
                                               TextStyle(
                                                   fontWeight: FontWeight.w700,
@@ -477,6 +478,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                                         onPressed: () {},
                                         child: Text(
                                           "View Rates",
+                                          textAlign: TextAlign.center,
                                           style: Constants.normalStyle.merge(
                                               TextStyle(
                                                   fontWeight: FontWeight.w700,
@@ -572,7 +574,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                                                     "Mobile App Special Voucher",
                                                     style: Constants.titleStyle
                                                         .merge(TextStyle(
-                                                            fontSize: 20)),
+                                                            fontSize: 17)),
                                                   )
                                                 ],
                                               ),
@@ -648,6 +650,8 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                                                     onPressed: () {},
                                                     child: Text(
                                                       "View Rates",
+                                                      textAlign:
+                                                          TextAlign.center,
                                                       style: Constants
                                                           .normalStyle
                                                           .merge(TextStyle(
@@ -838,6 +842,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                                                 onPressed: () {},
                                                 child: Text(
                                                   "View Rates",
+                                                  textAlign: TextAlign.center,
                                                   style: Constants.normalStyle
                                                       .merge(TextStyle(
                                                           fontWeight:

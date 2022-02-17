@@ -7,7 +7,7 @@ class Constants {
 
   static TextStyle titleStyle = const TextStyle(
       fontFamily: "EncodeSans",
-      fontSize: 30,
+      fontSize: 26,
       fontWeight: FontWeight.w700,
       color: Colors.black);
 
